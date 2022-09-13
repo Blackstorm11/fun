@@ -1,0 +1,45 @@
+export const AUTHOR=[
+    {
+        id:9,
+        brand:'bugati',
+        color:'gold',
+        model:'bugati cheron',
+    },
+    {likes:139,
+    dislikes:2,
+    isActive:true,
+    id:"616815ef04b3cd0015fb797f",
+    quote:"To be or not to be, it's upto you!",  
+    author:"Ivo Costa",
+    tags:"life;",
+    __v:0,
+    },
+    {
+    likes:74,
+    dislikes:0,
+    isActive:true,
+    _id:"623c4cf2b27b48001585b0b6",
+    quote:"All big things are made of smaller things of related nature",
+    author:"Napoleon Hill",
+    tags:"life;inspiration",
+    __v:0},
+    {likes:62,
+    dislikes:0,
+    isActive:true,
+    _id:"623c4d1db27b48001585b0b7",
+    quote:"Even the worst blizzard of the century accumlates one flake at a time.",
+    author:"Mary Kay Blakely",
+    tags:"life;inspiration",
+    __v:0},
+    {
+    likes:51,
+    dislikes:0,
+    isActive:true,
+    _id:"623c4d7fb27b48001585b0b9",
+    quote:"Whatever affects the body will affect the mind; whatever affects the mind will affect the body.",
+    author:"Napoleon Hill",
+    tags:"inspiration",
+    __v:0
+    }
+];
+

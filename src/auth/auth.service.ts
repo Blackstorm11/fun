@@ -7,11 +7,12 @@ import { AUTHOR } from "./auth.fatch";
 @Injectable()
 export class AuthService {
     private auths = AUTHOR;
+    postauth: any;
 
     public getAuths(){
         return this.auths ;
     }
-    public postCar(auth: AuthData){
+    public postAuth(auth: AuthData){
         return this.auths.push(auth);
     }
     public getAuthById(id: string):Promise<any>{
@@ -25,7 +26,7 @@ export class AuthService {
         return resolve(auth);
     });
     }
-    public deleteAuthById(id:NamedCurve, propertyName:string,propertyvalue:string):Promise<any>{
+    public deleteAuthById(id:string):Promise<any>{
         const authId=String(id);
         return new Promise((resolve)=>{
             const index=this.auths.findIndex((auth)=>auth.id=== authId)
